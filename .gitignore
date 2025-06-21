@@ -1,0 +1,244 @@
+# StyleBot - Generative AI Customer Interaction System
+# .gitignore file
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# Environment Variables and Secrets
+.env
+.env.local
+.env.production
+.env.staging
+*.key
+*.pem
+secrets.json
+config.json
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# AI/ML Specific Files
+# Model files and checkpoints
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.bin
+*.safetensors
+models/
+checkpoints/
+weights/
+
+# Vector Databases and Embeddings
+data/vector_index/
+data/embeddings/
+data/faiss_index/
+*.index
+*.docs
+*.embeddings
+*.embeddings.npy
+faiss_index/
+chromadb/
+vector_store/
+
+# Cached Models and Transformers
+.cache/
+.transformers_cache/
+.huggingface/
+transformers_cache/
+
+# Data Files
+data/processed/
+data/raw/
+data/interim/
+data/external/
+*.csv
+*.parquet
+*.arrow
+*.feather
+*.h5
+*.hdf
+*.sqlite
+*.db
+
+# Logs and Output
+logs/
+*.log
+*.out
+*.err
+outputs/
+results/
+experiments/
+runs/
+wandb/
+mlruns/
+.neptune/
+
+# Streamlit
+.streamlit/
+streamlit_cache/
+
+# FastAPI
+.pytest_cache/
+
+# Testing
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+htmlcov/
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+
+# Documentation
+docs/_build/
+site/
+
+# Backup Files
+backups/
+*.backup
+*.bak
+*.tmp
+
+# Large Files (use Git LFS for these if needed)
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+*.exe
+*.msi
+*.msm
+*.msp
+
+# Local configuration
+local_config.py
+local_settings.py
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Package manager files
+poetry.lock
+Pipfile.lock
+
+# Node.js (if using frontend components)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React/Frontend build files
+frontend/build/
+frontend/dist/
+
+# Docker
+*.dockerfile
+docker-compose.override.yml
+
+# Miscellaneous
+*.sage.py
+.spyderproject
+.spyproject
+.ropeproject
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Custom StyleBot specific ignores
+# RAG system artifacts
+knowledge_base_index/
+vector_cache/
+
+# Design generation cache
+design_cache/
+style_cache/
+
+# Conversation logs
+conversation_logs/
+chat_history/
+
+# Demo artifacts
+demo_output/
+test_conversations/
+
+# API keys and tokens
+openai_key.txt
+hf_token.txt
+api_keys.json
+
+# User data (if any)
+user_data/
+customer_data/
+conversations/
+
+# Performance monitoring
+performance_logs/
+metrics/
+
+# Development databases
+*.sqlite3
+*.db-journal
+
+# Generated documentation
+api_docs/
+generated_docs/ 

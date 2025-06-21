@@ -1,0 +1,90 @@
+{
+  "products": [
+    {
+      "id": "hoodie-001",
+      "name": "Custom Design Hoodie",
+      "category": "hoodies",
+      "base_price": 45.99,
+      "description": "Premium cotton blend hoodie perfect for custom designs",
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "colors": ["black", "white", "gray", "navy", "red", "green", "blue"],
+      "materials": ["80% cotton", "20% polyester"],
+      "features": ["drawstring hood", "kangaroo pocket", "ribbed cuffs"],
+      "customization_options": ["screen printing", "embroidery", "heat transfer", "digital print"],
+      "stock_status": "in_stock",
+      "lead_time": "7-10 business days"
+    },
+    {
+      "id": "tshirt-001",
+      "name": "Premium Custom T-Shirt",
+      "category": "t-shirts",
+      "base_price": 22.99,
+      "description": "Soft, breathable cotton t-shirt ideal for custom designs",
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL", "XXXL"],
+      "colors": ["black", "white", "gray", "navy", "red", "green", "blue", "yellow", "pink"],
+      "materials": ["100% cotton"],
+      "features": ["pre-shrunk", "tagless", "reinforced seams"],
+      "customization_options": ["screen printing", "vinyl", "heat transfer", "digital print"],
+      "stock_status": "in_stock",
+      "lead_time": "5-7 business days"
+    },
+    {
+      "id": "sweatshirt-001",
+      "name": "Custom Crewneck Sweatshirt",
+      "category": "sweatshirts",
+      "base_price": 38.99,
+      "description": "Comfortable fleece-lined sweatshirt for custom designs",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["black", "white", "gray", "navy", "maroon", "forest green"],
+      "materials": ["50% cotton", "50% polyester"],
+      "features": ["fleece-lined", "ribbed collar", "reinforced shoulders"],
+      "customization_options": ["embroidery", "screen printing", "heat transfer"],
+      "stock_status": "in_stock",
+      "lead_time": "7-10 business days"
+    },
+    {
+      "id": "jacket-001",
+      "name": "Custom Bomber Jacket",
+      "category": "jackets",
+      "base_price": 78.99,
+      "description": "Stylish bomber jacket perfect for unique custom designs",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["black", "navy", "olive", "burgundy"],
+      "materials": ["100% polyester shell", "polyester lining"],
+      "features": ["zip closure", "ribbed collar and cuffs", "side pockets"],
+      "customization_options": ["embroidery", "patches", "heat transfer"],
+      "stock_status": "limited",
+      "lead_time": "10-14 business days"
+    },
+    {
+      "id": "tank-001",
+      "name": "Custom Tank Top",
+      "category": "tank-tops",
+      "base_price": 18.99,
+      "description": "Lightweight tank top perfect for summer custom designs",
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "colors": ["black", "white", "gray", "navy", "red", "blue"],
+      "materials": ["100% cotton"],
+      "features": ["sleeveless", "scoop neck", "slim fit"],
+      "customization_options": ["screen printing", "vinyl", "digital print"],
+      "stock_status": "in_stock",
+      "lead_time": "5-7 business days"
+    }
+  ],
+  "customization_info": {
+    "design_formats": ["PNG", "JPG", "SVG", "PDF", "AI"],
+    "minimum_resolution": "300 DPI",
+    "maximum_colors": 6,
+    "design_areas": {
+      "front": "12\" x 14\"",
+      "back": "12\" x 14\"",
+      "left_chest": "4\" x 4\"",
+      "sleeve": "3\" x 10\""
+    },
+    "rush_order": {
+      "available": true,
+      "additional_cost": 15.00,
+      "lead_time": "3-5 business days"
+    }
+  }
+} 
