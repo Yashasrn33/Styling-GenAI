@@ -40,7 +40,7 @@ A comprehensive AI-powered customer interaction system for a fictional custom cl
 
 1. **Clone the repository**
 ```bash
-git clone <repository-url>
+git clone https://github.com/Yashasrn33/Styling-GenAI
 cd customer_interaction_ai
 ```
 
@@ -299,13 +299,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Streamlit**: For the beautiful web interface
 - **FAISS**: For efficient vector similarity search
 - **OpenAI**: For advanced language model capabilities
-
-## 📞 Support
-
-- **Documentation**: [Project Wiki](link-to-wiki)
-- **Issues**: [GitHub Issues](link-to-issues)
-- **Discussions**: [GitHub Discussions](link-to-discussions)
-- **Email**: stylebot-support@example.com
 
 ---
 
